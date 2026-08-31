@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alan Andrés Díaz De Jesús — Estudiante de Informática</title>
+  <meta name="description" content="Portfolio de Alan Andrés Díaz De Jesús, estudiante de informática. Proyectos de bases de datos, desarrollo web, C# y Python.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header" id="inicio">
+    <div class="header-inner container">
+      <a href="#inicio" class="logo">Alan<span>.dev</span></a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú de navegación">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- HERO -->
+    <section class="hero container" aria-label="Presentación">
+      <p class="hero-eyebrow">Portfolio · 2026</p>
+      <h1 class="hero-title">
+        Alan Andrés<br>Díaz De Jesús
+      </h1>
+      <p class="hero-role">Estudiante de Informática</p>
+      <p class="hero-text">
+        Estudiante de informática interesado en el desarrollo de software, las bases de datos
+        y la creación de soluciones mediante la tecnología.
+      </p>
+      <div class="hero-actions">
+        <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+        <a href="assets/documents/CV-Alan-Andres.pdf" class="btn btn-secondary" download>Descargar CV</a>
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section class="about" id="sobre-mi" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-index" aria-hidden="true">
+          <span class="section-number">01</span>
+        </div>
+        <div class="about-content">
+          <h2 id="about-title">Sobre mí</h2>
+          <p>
+            Soy estudiante de informática y me encuentro en proceso de formación en programación,
+            desarrollo web y bases de datos. Aprendo principalmente a través de proyectos prácticos,
+            probando, cometiendo errores y corrigiéndolos.
+          </p>
+          <p>
+            Estoy buscando una oportunidad de pasantía en el área de informática donde pueda aplicar
+            lo que he aprendido hasta ahora, seguir aprendiendo de profesionales con más experiencia
+            y aportar al equipo en la medida de mis posibilidades.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="skills" id="habilidades" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number">02</span>
+          <h2 id="skills-title">Tecnologías y habilidades</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>SQL Server</h3>
+            <span class="skill-tag">En desarrollo</span>
+            <p>Bases de datos, diseño de tablas, relaciones y consultas SQL.</p>
+          </article>
+
+          <article class="skill-card">
+            <h3>HTML &amp; CSS</h3>
+            <span class="skill-tag">En desarrollo</span>
+            <p>Creación y estructuración de páginas web.</p>
+          </article>
+
+          <article class="skill-card">
+            <h3>C#</h3>
+            <span class="skill-tag">Básico</span>
+            <p>Desarrollo básico de aplicaciones utilizando formularios.</p>
+          </article>
+
+          <article class="skill-card">
+            <h3>Python</h3>
+            <span class="skill-tag">Básico</span>
+            <p>Programación básica y ejercicios prácticos.</p>
+          </article>
+        </div>
+
+        <div class="tools-row">
+          <p class="tools-label">Herramientas utilizadas para construir este portfolio</p>
+          <ul class="tools-list">
+            <li>JavaScript</li>
+            <li>Git</li>
+            <li>GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section class="projects" id="proyectos" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number">03</span>
+          <h2 id="projects-title">Proyectos</h2>
+        </div>
+
+        <article class="project" id="proyecto-01">
+          <div class="project-media">
+            <img src="assets/images/proyecto-01.svg" alt="Captura del proyecto de base de datos en SQL Server" loading="lazy">
+          </div>
+          <div class="project-body">
+            <span class="project-index">Proyecto 01</span>
+            <h3>Base de datos en SQL Server</h3>
+            <p>
+              Proyecto académico en el que trabajé con SQL Server para crear y gestionar una base
+              de datos, utilizando tablas, relaciones entre entidades y consultas SQL.
+            </p>
+            <ul class="project-tags">
+              <li>SQL Server</li>
+              <li>T-SQL</li>
+              <li>Modelado de datos</li>
+            </ul>
+            <a href="[EDITAR: enlace al repositorio de GitHub]" class="project-link">
+              Ver repositorio en GitHub
+            </a>
+          </div>
+        </article>
+
+        <article class="project project-reverse" id="proyecto-02">
+          <div class="project-media">
+            <img src="assets/images/proyecto-02.svg" alt="Captura de la página web desarrollada con HTML y CSS" loading="lazy">
+          </div>
+          <div class="project-body">
+            <span class="project-index">Proyecto 02</span>
+            <h3>Página web</h3>
+            <p>
+              Proyecto desarrollado utilizando HTML y CSS, enfocado en la estructura semántica
+              y el maquetado de una página web.
+            </p>
+            <ul class="project-tags">
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+            <div class="project-links">
+              <a href="[EDITAR: enlace al proyecto en vivo]" class="project-link">Ver proyecto</a>
+              <a href="[EDITAR: enlace al repositorio de GitHub]" class="project-link">Repositorio</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project" id="proyecto-03">
+          <div class="project-media">
+            <img src="assets/images/proyecto-03.svg" alt="Captura de la aplicación desarrollada en C# con formularios" loading="lazy">
+          </div>
+          <div class="project-body">
+            <span class="project-index">Proyecto 03</span>
+            <h3>Aplicación en C#</h3>
+            <p>
+              Proyecto realizado mediante formularios de C#, aplicando lógica de programación
+              e interacción básica con el usuario.
+            </p>
+            <ul class="project-tags">
+              <li>C#</li>
+              <li>Windows Forms</li>
+            </ul>
+            <a href="[EDITAR: enlace al repositorio de GitHub]" class="project-link">
+              Ver repositorio en GitHub
+            </a>
+          </div>
+        </article>
+
+        <article class="project project-reverse" id="proyecto-04">
+          <div class="project-media">
+            <img src="assets/images/proyecto-04.svg" alt="Captura de los ejercicios de programación en Python" loading="lazy">
+          </div>
+          <div class="project-body">
+            <span class="project-index">Proyecto 04</span>
+            <h3>Programación en Python</h3>
+            <p>
+              Ejercicios y proyectos básicos desarrollados para practicar lógica de programación
+              y estructuras fundamentales del lenguaje.
+            </p>
+            <ul class="project-tags">
+              <li>Python</li>
+            </ul>
+            <a href="[EDITAR: enlace al repositorio de GitHub]" class="project-link">
+              Ver repositorio en GitHub
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- FORMACIÓN -->
+    <section class="education" id="formacion" aria-labelledby="education-title">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number">04</span>
+          <h2 id="education-title">Formación</h2>
+        </div>
+
+        <ol class="education-list">
+          <li class="education-item">
+            <p class="education-date">[EDITAR: FECHA]</p>
+            <h3>[EDITAR: NOMBRE DE LA INSTITUCIÓN]</h3>
+            <p class="education-program">[EDITAR: TÍTULO / PROGRAMA]</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contact" id="contacto" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-grid">
+          <div>
+            <span class="section-number">05</span>
+            <h2 id="contact-title">¿Hablamos?</h2>
+            <p>
+              Estoy buscando una oportunidad de pasantía en el área de informática donde pueda
+              aplicar mis conocimientos, continuar aprendiendo y aportar al equipo.
+            </p>
+          </div>
+
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Correo</span>
+              <a href="mailto:[EDITAR: TU_CORREO]">[EDITAR: TU_CORREO]</a>
+            </li>
+            <li>
+              <span class="contact-label">Teléfono</span>
+              <a href="tel:[EDITAR: TU_TELEFONO]">[EDITAR: TU_TELEFONO]</a>
+            </li>
+            <li>
+              <span class="contact-label">GitHub</span>
+              <a href="[EDITAR: TU_GITHUB]" target="_blank" rel="noopener noreferrer">[EDITAR: TU_GITHUB]</a>
+            </li>
+            <li>
+              <span class="contact-label">LinkedIn</span>
+              <a href="[EDITAR: TU_LINKEDIN]" target="_blank" rel="noopener noreferrer">[EDITAR: TU_LINKEDIN]</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Alan Andrés Díaz De Jesús</p>
+      <p class="footer-meta">Portfolio 2026</p>
+      <ul class="footer-links">
+        <li><a href="[EDITAR: TU_GITHUB]" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="[EDITAR: TU_LINKEDIN]" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="mailto:[EDITAR: TU_CORREO]">Correo</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
